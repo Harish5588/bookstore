@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LitReads Book Store</title>
+    <link rel="icon" href="https://static.wixstatic.com/media/ecaed0_7820e50344f743388b4e80181986c61f~mv2.png/v1/fill/w_560,h_560,al_c,lg_1,q_85,enc_auto/LIT%20READS%20Logo%20(1).png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+        footer{
+            background-color: rgb(168, 237, 239);
+        }
+        footer ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        footer ul{
+            list-style: none;
+        }
+        footer i{
+            font-size: 20px;
+        }
+        footer input{          
+            width:300px;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <header class="heading bg-light">
+        <h1 class="display-4 text-primary"><img src="https://static.vecteezy.com/system/resources/thumbnails/011/169/445/small_2x/education-fire-logo-design-motivation-book-logo-design-template-free-vector.jpg" alt="" style="width: 100px;border-radius: 50%;">LitReads</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto gap-5 mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active text-dark" aria-current="page" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Categories</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Best Sellers
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">ABC store</a></li>
+                      <li><a class="dropdown-item" href="#">Amaze store</a></li>
+                      
+                      <li><a class="dropdown-item" href="#">Lit store</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="/html/aboutus.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="/html/bookstore-contact.html">Contact Us</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <div class="d-flex justify-content-between mt-5">  
+    <main class="container-fluid col-10">
+        <h1>Telugu Books</h1>
+        
+         
+        <article class="row  row-cols-md-3 row-cols-lg-5   g-4" id="telugu">
+            <div class="col">        
+                <div class="card" >            
+                    <img class="card-img-top p-3 " src="https://m.media-amazon.com/images/I/81sleEPnLKL._AC_UF1000,1000_QL80_.jpg" alt="" style="height: 250px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Neethi Kathalu</h4><br>
+                        <p class="card-text">(Animals)</p>
+                        <p class="price"><i class="fa fa-rupee"></i>865</p>
+                        <button class="btn btn-danger">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card " >
+                    <img class="card-img-top p-3" src="https://rukminim2.flixcart.com/image/850/1000/xif0q/regionalbooks/o/m/k/panchatantram-moral-stories-telugu-multi-colour-original-imagrmqcneufuxkv.jpeg?q=20&crop=false" alt="" style="height: 250px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Panchathantram</h4><br>
+                        <p class="card-text">(Moral)</p>
+                        <p class="price"><i class="fa fa-rupee"></i>500</p>
+                        <button class="btn btn-danger">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card " >
+                    <img class="card-img-top p-3" src="https://rukminim2.flixcart.com/image/850/1000/jnyxd3k0/regionalbooks/n/h/n/telugu-moral-stories-book-original-imafaghkdwgahcup.jpeg?q=90&crop=false" alt="" style="height: 250px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Esap Stories</h4><br>
+                        <p class="card-text"> (Balala bommalu)</p>
+                        <p class="price"><i class="fa fa-rupee"></i>489</p>
+                        <button class="btn btn-danger">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card " >
+                    <img class="card-img-top p-3" src="https://m.media-amazon.com/images/I/81O9iQtisGL._AC_UF1000,1000_QL80_.jpg" alt="" style="height: 250px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Velugu</h4><br>
+                        <p class="card-text">(Moral)</p>
+                        <p class="price"><i class="fa fa-rupee"></i>679</p>
+                        <button class="btn btn-danger">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card " >
+                    <img class="card-img-top p-3" src="https://www.chirukaanuka.com/cdn/shop/products/PB-3_1024x1024.jpg?v=1680590221" alt="" style="height: 250px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Hitopadesa Kathalu</h4>
+                        <p class="card-text">(Moral)</p>
+                        <p class="price"><i class="fa fa-rupee"></i>749</p>
+                        <button class="btn btn-danger">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <h1>Hindi Books</h1>
+
+        <article class="row  row-cols-md-3 row-cols-lg-5  g-4" id="hindi">
+        <div class="col"> 
+            <div class="card" >
+                <img class="card-img-top p-3"  src="https://www.kapot.in/wp-content/uploads/2022/02/9789391460433-rotated.jpeg" alt="" style="height: 250px;">
+                <div class="card-body">
+                    <h4 class="card-title">Sampurn Ramayana</h4>
+                    <p class="card-text">(True Story)</p>
+                    <p class="price"><i class="fa fa-rupee"></i>749</p>
+                    <button class="btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="card-img-top p-3" src="https://rukminim2.flixcart.com/image/850/1000/kl5hh8w0/regionalbooks/d/3/v/short-moral-stories-for-kids-hindi-4-books-40-stories-original-imagyccuahep6gfy.jpeg?q=20&crop=false" alt="" style="height: 250px;">
+                <div class="card-body">
+                    <h4 class="card-title">Bal Nithik Kahaniya</h4>
+                    <p class="card-text">(Moral)</p>
+                    <p class="price"><i class="fa fa-rupee"></i>650</p>
+                    <button class="btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card " >
+                <img class="card-img-top p-3" src="https://rukminim2.flixcart.com/image/850/1000/kwcfngw0/book/z/k/p/moral-story-book-illustrated-hindi-story-book-for-kids-1-original-imag9fzy45rqfnfk.jpeg?q=90&crop=false" alt="" style="height: 250px;">
+                <div class="card-body">
+                    <h4 class="card-title">Nithik Katha</h4><br>
+                    <p class="card-text">(Moral)</p>
+                    <p class="price"><i class="fa fa-rupee"></i>699</p>
+                    <button class="btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card ">
+                <img class="card-img-top p-3" src="https://sahityabhawan.co.in/wp-content/uploads/2021/07/2305-398x506.jpg" alt="" style="height: 250px;">
+                <div class="card-body">
+                    <h4 class="card-title">Bal Katha</h4><br>
+                    <p class="card-text">(Moral)</p>
+                    <p class="price"><i class="fa fa-rupee"></i>360</p>
+                    <button class="btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="card-img-top p-3" src="https://www.pastcart.com/wp-content/uploads/2023/06/Document-129_3-250x250.jpg" alt="" style="height: 250px;">
+                <div class="card-body">
+                    <h4 class="card-title">Akbar-Birbal</h4><br>
+                    <p class="card-text">(Best story)</p>
+                    <p class="price"><i class="fa fa-rupee"></i>700</p>
+                    <button class="btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        </article>
+
+        <h1>English Books</h1>
+        <article class="row  row-cols-md-3 row-cols-lg-5  g-4" id="english">
+        <div class="col"> 
+            <div class="card ">
+                <img class="card-img-top p-3" src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/9/2/1441204840755/fe33091c-15bd-454d-870c-68b502bcc04f-1360x2040.jpeg?width=300&quality=45&auto=format&fit=max&dpr=2&s=774fdcddd3a67b89f81fffc427081437" alt="" style="height: 250px;">
+                <div class="card-body">
+                    <h4 class="card-title">Harry Potter</h4><br>
+                    <p class="card-text">(Amazing story)</p>
+                    <p class="price"><i class="fa fa-rupee"></i>860</p>
+                    <button class="btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card ">
+                <img class="card-img-top p-3" src="https://learnenglish-new.com/wp-content/uploads/2021/11/English-story-books-for-elementary-level.png" alt="" style="height: 250px;">
+                <div class="card-body">
+                    <h4 class="card-title">The Star child</h4><br>
+                    <p class="card-text">(Moral)</p>
+                    <p class="price"><i class="fa fa-rupee"></i>500</p>
+                    <button class="btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="card-img-top p-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRAl18ISK0_6XtqOEyAQM7RDkTVlfVK3Np1Q&usqp=CAU" alt="" style="height: 250px;">
+                <div class="card-body">
+                    <h4 class="card-title">The Jungle Book</h4><br>
+                    <p class="card-text">(Moral,Adventure)</p>
+                    <p class="price"><i class="fa fa-rupee"></i>400</p>
+                    <button class="btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="card-img-top p-3" src="https://chimesradio.com/wp-content/uploads/2020/10/stuart-little.jpg" alt="" style="height: 250px;">
+                <div class="card-body">
+                    <h4  class="card-title">Stuart Little</h4><br>
+                    <p class="card-text">(Adventure)</p>
+                    <p class="price"><i class="fa fa-rupee"></i>650</p>
+                    <button class="btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+        </div>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top p-3" src="https://cdn.shopify.com/s/files/1/2081/8163/files/005-SUNNY-MEADOWS-WOODLAND-SCHOOL-th.jpg?v=1589846879" alt="" style="height: 250px;">
+                        <div class="card-body">
+                            <h4  class="card-title">Sunny Meadoes Woodland School</h4>
+                            <p class="card-text">(Moral, Adventure)</p>
+                            <p class="price"><i class="fa fa-rupee"></i>599</p>
+                            <button class="btn btn-danger">Add to cart</button>
+                        </div>
+                    </div>
+            </div>
+        </article>
+
+        <h1>Novels</h1>
+
+        <article class="row  row-cols-md-3 row-cols-lg-5  g-4" id="novels">
+            <div class="col">           
+                <div class="card " >
+                    <img class="card-img-top p-3" src="https://m.media-amazon.com/images/I/51xcnrUbLZL._AC_UF1000,1000_QL80_.jpg" alt="" style="height: 250px;">
+                    <div class="card-body">
+                        <h4  class="card-title">THE 100 BEST NOVELS</h4>
+                        <p class="card-text">Author: Robert</p>
+                        <p class="price"><i class="fa fa-rupee"></i>850</p>
+                        <button class="btn btn-danger">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top p-3" src="https://m.media-amazon.com/images/I/51xwFZin4pL._AC_UF1000,1000_QL80_.jpg" alt="" style="height: 250px;">
+                    <div class="card-body">
+                        <h4  class="card-title">A Story Of Struggle</h4>
+                        <p class="card-text">Author: Ashok Kumawar</p>
+                        <p class="price"><i class="fa fa-rupee"></i>700</p>
+                        <button class="btn btn-danger">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card ">
+                    <img class="card-img-top p-3" src="https://media.npr.org/assets/img/2021/08/13/711gd93ifkl_custom-4da4cd0caaee24686552a01b6a9a5fe365b0e08d-s800-c85.jpeg" alt="" style="height: 250px;">
+                    <div class="card-body">    
+                        <h4  class="card-title">The Calculating Stars</h4>
+                        <p class="card-text">Author: Ravi k</p>
+                        <p class="price"><i class="fa fa-rupee"></i>949</p>
+                        <button class="btn btn-danger">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col"> 
+                <div class="card ">
+                    <img class="card-img-top p-3" src="https://mpd-biblio-covers.imgix.net/9781250812209.jpg?w=300" alt="" style="height: 250px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Book Of Night Holly Black</h4>
+                        <p class="card-text">Author: Kishan</p>
+                        <p class="price"><i class="fa fa-rupee"></i>599</p>
+                        <button class="btn btn-danger">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top p-3" src="https://m.media-amazon.com/images/I/61Vg4eunW1L._AC_UF894,1000_QL80_.jpg" alt="" style="height: 250px;">
+                    <div class="card-body">
+                        <h4  class="card-title">Leftovers: A novel</h4><br>
+                        <p class="card-text">Author: Toynbee</p>
+                        <p class="price"><i class="fa fa-rupee"></i>679</p>
+                        <button class="btn btn-danger">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        
+    </article>
+    </main>
+    <main class="container-fluid col-2 mt-5 fs-3 border h-50 bg-info">
+        <ul class="nav flex-column ">
+            <li class="nav-item">
+              <a class="nav-link active text-dark" aria-current="page" href="#telugu">Telugu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#hindi">Hindi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#english">English</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#novels">Novels</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Horror</a>
+              </li>
+            
+          </ul>
+    </main>
+    </div>
+    
+    <br>
+    <footer class="footer-class">
+        <form class="newsletter-form text-center ">
+            <input class="p-1 mt-1" type="email" name="email" placeholder="Your Email">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+        <div class="row mt-5 text-center">
+        <div class="col"><p>This Store is offering a Good Book collection with better price.</p></div>
+        <div class="col">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Best Seller</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <p>Copyright @ awesomw store pvt ltd</p>
+        </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

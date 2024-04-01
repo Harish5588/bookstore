@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="icon" href="https://static.wixstatic.com/media/ecaed0_7820e50344f743388b4e80181986c61f~mv2.png/v1/fill/w_560,h_560,al_c,lg_1,q_85,enc_auto/LIT%20READS%20Logo%20(1).png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+        form{
+           width: 500px;
+            font-size: 18px;
+            line-height: 1.5;            
+        }
+        footer{
+            background-color: rgb(168, 237, 239);
+        }
+        .footer-class ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        .footer-class ul{
+            list-style: none;
+        }
+        footer i{
+            font-size: 20px;
+        }
+        footer input{          
+            width:300px;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <header class="heading bg-light">
+        <h1 class="display-4 text-primary">LitReads</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto gap-5 mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active text-dark" aria-current="page" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Categories</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Best Sellers
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">ABC store</a></li>
+                      <li><a class="dropdown-item" href="#">Amaze store</a></li>
+                      
+                      <li><a class="dropdown-item" href="#">Lit store</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="/html/aboutus.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="/html/bookstore-contact.html">Contact Us</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="container bg-info ">
+        <div class="d-flex justify-content-center p-5">
+    <form class="bg-light text-center" >
+        <h1>Contact Us</h1>
+        <p>By entering your details.</p>
+        <label for="fname">Full Name: </label>
+        <input type="text">
+        <br>
+        <label for="lname">User Name: </label>
+        <input type="text">
+        <br>
+        <label for="email">Email id: </label>
+        <input type="email" placeholder="xyz@gmail.com">
+        <br>
+        <label for="number">Mobile Number: </label>
+        <input type="tel" placeholder="908-567-2345">
+        <br>
+        <label for="dob">Date of Birth: </label>
+        <input type="date">
+        <br><br>
+        
+            <h2>Delivery Addresss Details</h2>
+            <label for="dor no">Door No: </label>
+            <input type="text">
+            <br>
+            <label for="">Street Name: </label>
+            <input type="text">
+            <br>
+            <label for="">City: </label>
+            <input type="text">
+            <br>
+            <label for="State">State</label>
+            <select name="State" id="State">
+                <option value=""></option>
+                <option value="Telangana">Telangana</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Tamilnadu">Tamilnadu</option>
+            </select>
+            <br>
+            <label for="pincode">Pincode: </label>
+            <input type="text">
+            <br>
+            <label for="landmark">Near landmark</label>
+            <textarea name="" id="" cols="20" rows="2"></textarea>
+        
+        <br>
+        <label for="password">Password: </label>
+        <input type="password">
+        <br>
+        <label for="confirm">Confirm Password: </label>
+        <input type="password">
+        <br>
+        <div class="p-5">
+        <button class="btn btn-primary">Back</button>
+        <button class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+    </div>
+    </div>
+    <footer class="footer-class ">
+       
+        <div class="row mt-5 text-center">
+        <div class="col"><p>This Store is offering a Good Book collection with better price.</p></div>
+        <div class="col">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Best Seller</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <p>Copyright @ awesomw store pvt ltd</p>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
